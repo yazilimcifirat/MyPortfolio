@@ -31,7 +31,7 @@ section{
 	padding: 10rem 9% 2rem;
 }
 .header {
-	position: fixed;
+	position: fixed;/*bu satırdaki kod bizim header yapımızın sabit kalmasını sağlıyor bu sayede aşağı indiğidimizde de header gözüküyor*/
 	top: 0;
 	left: 0;
 	width: 100%;

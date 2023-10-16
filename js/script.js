@@ -1,5 +1,5 @@
 /*==============================toggle icon navbar============== */
-let menuIcon=document.querySelector('#menu-icon');
+let menuIcon=document.querySelector('#menu-icon');//Bu bölümdeki bütün kodlar bizim ekranımız küçültüğünde çıkan hambur ger butona tıklayınca menünün açılmasını sağlıyor.
 let navbar=document.querySelector('.navbar');
 
 menuIcon.onclick= () =>{
@@ -35,7 +35,7 @@ window.onscroll= () =>{
 };
 
 /*==============================scroll reveal============== */
-ScrollReveal({
+ScrollReveal({//Bu bölümdeki bütün kodlar bizim yazılarımızın ve fotomuzun sağdan soladan gelmesini sağlıyor.
 	reset: true,
 	distance: '80px',
 	duration: 2000,
